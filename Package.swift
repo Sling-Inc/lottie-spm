@@ -12,7 +12,7 @@ let lottieXCFramework = Target.binaryTarget(
 let package = Package(
   name: "Lottie",
   platforms: [.iOS("13.0"), .macOS("10.15"), .tvOS("13.0"), .custom("visionOS", versionString: "1.0")],
-  products: [.library(name: "Lottie", targets: ["Lottie", "_LottieStub"])],
+  products: [.library(name: "SlingLottie", targets: ["Lottie", "_LottieStub"])],
   targets: [
     lottieXCFramework,
     
